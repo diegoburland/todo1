@@ -1,7 +1,8 @@
 import {Request, Response, Router} from 'express'
 
+
 class IndexRoutes {
-    router:Router;
+    router:Router
     constructor(){
         this.router = Router()
         this.routes()
